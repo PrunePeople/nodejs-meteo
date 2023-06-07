@@ -1,0 +1,25 @@
+<%- include('../../layout/header.html') -%> Homepage HTML
+
+<!-- <header class="main-header">Header</header>
+    <div class="main-content"> -->
+<br />
+--------------------------------------- Content
+
+<div>The color is : <%= color %></div>
+
+<ul>
+  <% for (let fruit of fruits) { %>
+  <li><%= fruit %></li>
+  <% } %>
+</ul>
+
+<br />
+<div>Firstname: <%= user.firstname %></div>
+<div>Lastname: <%= user.lastname %></div>
+
+---------------------------------------
+<br />
+<!-- </div>
+    <footer class="main-footer">Footer</footer> -->
+
+<%- include('../../layout/footer.html') -%>
